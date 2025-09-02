@@ -1,14 +1,22 @@
 VibeStrings — Online Guitar Shop
 
-A small React app that showcases guitars from a GraphQL API. It includes:
+A lightweight React app that showcases guitars from a GraphQL API.
 
-Landing page with hero, featured brands, and promo.
+Pages
 
-Brand models page with type filter and search by name.
+Landing: hero, featured brands, promo, footer
 
-Guitar details page with specs and “who plays it” tabs.
+Brand Models: filter by type, search by name
+
+Guitar Details: specs tab and “Who plays it” tab (2 artists at a time)
 
 Run locally
+# from the project root
 npm install
 npm run dev
-# then open the URL Vite prints (usually http://localhost:5173)
+
+
+Then open: http://localhost:5173/
+
+Tech: React (Vite) + Apollo Client (GraphQL) + MUI
+API: https://graphql-api-brown.vercel.app/api/graphql
